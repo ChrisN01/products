@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Show from './components/views/Show.vue'
+import Show from './components/Show.vue'
 
 Vue.use(Router)
 
@@ -9,12 +9,12 @@ routes: [
   {
     path: '/app',
     name: 'App',
-    component: require('./components/Show.vue')
+    component: require('./components/App.vue')
   },
   {
     path: '/show',
     name: 'Show',
-    component: require('./components/views/Show.vue')
+    component: require('./components/Show.vue')
   }
 ],
  mode: 'history',

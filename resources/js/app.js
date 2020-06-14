@@ -23,8 +23,8 @@ Vue.use (Toastr);
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/views/App.vue').default);
-Vue.component('list-component', require('./components/views/Show.vue'));
+Vue.component('example-component', require('./components/App.vue').default);
+Vue.component('list-component', require('./components/Show.vue'));
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

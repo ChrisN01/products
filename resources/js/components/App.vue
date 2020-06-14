@@ -6,7 +6,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active float-right text-white" href="/">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active float-right text-white" href="/products">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link float-right text-white">Registro de Productos</a>
       <a class="nav-item nav-link float-right text-white" to="/show">Consultar Productos</a>
     </div>
